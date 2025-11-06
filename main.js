@@ -11,11 +11,11 @@ const DASH_KEYS = ["a", "d"];
 const PLAYER_SCALE = 100;
 
 const IMAGE_SOURCES = [
-  "assets/player/movement/Hen0.svg",
-  "assets/player/movement/Hen1.svg",
-  "assets/player/movement/Hen2.svg",
-  "assets/player/movement/Hen3.svg",
-  "assets/player/movement/Hen4.svg",
+  "assets/player/Movement/Hen0.svg",
+  "assets/player/Movement/Hen1.svg",
+  "assets/player/Movement/Hen2.svg",
+  "assets/player/Movement/Hen3.svg",
+  "assets/player/Movement/Hen4.svg",
   "assets/player/Henb0.svg",
   "assets/player/Henb1.svg"
 ];
@@ -376,3 +376,4 @@ async function gameLoop() {
 }
 
 loadImages(IMAGE_SOURCES, () => gameLoop());
+
