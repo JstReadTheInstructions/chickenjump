@@ -200,7 +200,7 @@ function generateObstacles() {
   const y = GROUND_LEVEL - height;
 
   const last = obstacles[obstacles.length - 1];
-  if (last && Math.abs(x - (last[0] + last[2])) < 200 / speedPhase + 60) return;
+  if (last && Math.abs(x - (last[0] + last[2])) < 1600 / speedPhase - 50) return;
 
   obstacles.push([x, y, width, height]);
 }
