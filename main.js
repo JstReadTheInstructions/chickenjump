@@ -6,7 +6,7 @@ const ctx = canvas.getContext("2d");
 
 const GRAVITY = 2;
 const JUMP_POWER = 23;
-const GROUND_LEVEL = 750;
+const GROUND_LEVEL = 500;
 const DASH_KEYS = ["a", "d"];
 const PLAYER_SCALE = 100;
 
@@ -253,7 +253,7 @@ function drawPlayer() {
 
 function drawFloor() {
   ctx.fillStyle = "green";
-  ctx.fillRect(0, GROUND_LEVEL - cameraOffsetY, canvas.width, 50);
+  ctx.fillRect(0, GROUND_LEVEL - cameraOffsetY, canvas.width, 800 - GROUND_LEVEL);
 }
 
 function drawObstacles() {
